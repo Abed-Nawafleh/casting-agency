@@ -1,5 +1,5 @@
 export FLASK_APP=app.py
-export DATABASE_URL='postgresql://postgres:b590abod@localhost:5432/capstone'
+export DATABASE_URL='postgresql://postgres:postgres@localhost:5432/capstone'
 export AUTH0_DOMAIN='dev-rcqurksb.us.auth0.com'
 export ALGORITHMS=['RS256']
 export API_AUDIENCE='localhost:8080/login'
